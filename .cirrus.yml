@@ -11,7 +11,7 @@ compute_engine_instance:
 task:
   timeout_in: 120m
   enviroment:
-    TOKEN: ENCRYPTED[fb5f351553986b4a88aff786f1bdf044e57a928b190e6aebee616c7d5e2e94776ee45771b93c60b2c275128e183903c0]
+    TOKEN: ENCRYPTED[!847cb5577e23da7c39e0c9b9af07cb26ab3606074fbc774f5035a737541ebd76c61bc334fd7f0d5518cfcadd0082bb23!]
   script:
    - curl -s -O https://raw.githubusercontent.com/kingofnetflix/cirrus-win/main/azurepipeline.bat
    - azurepipeline.bat
